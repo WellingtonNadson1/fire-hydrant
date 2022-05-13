@@ -116,19 +116,13 @@ div.value > small{
     width: 10.4%;
     background: #f9f8f7;
     border-radius: 50%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -1.4rem;
+    margin-inline: auto;
+    margin-top: -1.3rem;
 }
 
 .img-arrow > img{
     opacity: 10%;
     width: 2rem;
-    position: relative;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .buy{

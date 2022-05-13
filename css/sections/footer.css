@@ -1,4 +1,4 @@
-footer{
+.footer-index{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -7,7 +7,29 @@ footer{
     padding: 2.4rem;
 }
 
-footer > p{
+.footer-index > p{
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: start;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.privacy a{
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: start;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.terms a{
+    text-decoration: none;
     font-style: normal;
     font-size: 1rem;
     font-weight: 400;
